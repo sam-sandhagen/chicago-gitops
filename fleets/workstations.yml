@@ -9,7 +9,7 @@
          labels_include_all:
          - "Department: Engineering"
        - path: ../Users/ssandhagen/Documents/GitHub/chicago-gitops/lib/ios/configuration-profiles/passcode-settings.json
-          labels_exclude_any:
+         labels_exclude_any:
             - C-Suite
     macos_updates:
      deadline: "2026-04-30"
