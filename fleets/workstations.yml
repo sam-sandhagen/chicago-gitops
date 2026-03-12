@@ -1,6 +1,7 @@
   name: "💻 Workstations"
   policies:
     - path: ../lib/../lib/windows/policies/antivirus-updated.policies.yml
+    - path: ../lib/macos/policies/dns-resolvers.policies.yml
   reports:
   agent_options:
   controls:
@@ -20,6 +21,7 @@
       minimum_version: "26.2"
     scripts:
       - path: ../lib/windows/scripts/set-wallpaper.ps1
+      - path: ../lib/macos/scripts/set-dns-cloudflare.sh
     enable_disk_encryption: true
   software:
   settings:
