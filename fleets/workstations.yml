@@ -7,7 +7,7 @@
       custom_settings:
        - path: ../Users/ssandhagen/Documents/GitHub/chicago-gitops/lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
          labels_include_all:
-         - "Department: Engineering"
+           - "Department: Engineering"
        - path: ../Users/ssandhagen/Documents/GitHub/chicago-gitops/lib/ios/configuration-profiles/passcode-settings.json
          labels_exclude_any:
             - C-Suite
