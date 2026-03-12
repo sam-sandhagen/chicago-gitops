@@ -1,5 +1,7 @@
 # default.yml controls global settings and policies/reports that run on all hosts ("All fleets").
 
+labels:
+  - path: ./lib/all/labels/global-label.yml
 policies:
 reports:
 agent_options:
