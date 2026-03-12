@@ -24,6 +24,10 @@
       - path: ../lib/macos/scripts/set-dns-cloudflare.sh
     enable_disk_encryption: true
   software:
+    packages:
+      - path: ../lib/macos/software/zoom.yml
+        self_service: true
+        setup_experience: true
   settings:
     secrets:
       - secret: "$FLEET_WORKSTATIONS_ENROLL_SECRET"
