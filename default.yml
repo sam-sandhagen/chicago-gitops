@@ -1,0 +1,13 @@
+# default.yml controls global settings and policies/reports that run on all hosts ("All fleets").
+
+policies:
+reports:
+agent_options:
+controls:
+org_settings:
+  server_settings:
+    server_url: $FLEET_URL
+  org_info:
+    org_name: Fleet
+  secrets:
+    - secret: "$FLEET_GLOBAL_ENROLL_SECRET"

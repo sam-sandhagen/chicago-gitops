@@ -1,0 +1,9 @@
+name: "💻 Workstations"
+policies:
+reports:
+agent_options:
+controls:
+software:
+settings:
+  secrets:
+    - secret: "$FLEET_WORKSTATIONS_ENROLL_SECRET"
