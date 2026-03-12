@@ -1,5 +1,6 @@
   name: "💻 Workstations"
   policies:
+    - path: ../lib/../lib/windows/policies/antivirus-updated.policies.yml
   reports:
   agent_options:
   controls:
