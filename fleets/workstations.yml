@@ -8,6 +8,7 @@
        - path: ../Users/ssandhagen/Documents/GitHub/chicago-gitops/lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
       labels_include_all:
         - "Department: Engineering"
+  controls:
     macos_updates:
      deadline: "2026-04-30"
      minimum_version: "26.0"
