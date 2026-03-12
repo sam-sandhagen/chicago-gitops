@@ -1,14 +1,14 @@
-- name: "💻 Workstations"
+  name: "💻 Workstations"
   policies:
   reports:
   agent_options:
   controls:
     macos_settings:
       custom_settings:
-        - path: ../Users/ssandhagen/Documents/GitHub/chicago-gitops/lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+        - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
           labels_include_all:
             - "Department: Engineering"
-        - path: ../Users/ssandhagen/Documents/GitHub/chicago-gitops/lib/ios/configuration-profiles/passcode-settings.json
+        - path: ../lib/ios/configuration-profiles/passcode-settings.json
           labels_exclude_any:
             - C-Suite
     macos_updates:
@@ -18,7 +18,7 @@
       deadline: "2026-06-30"
       minimum_version: "26.2"
     scripts:
-      - path: ../Users/ssandhagen/Documents/GitHub/chicago-gitops/lib/windows/scripts/set-wallpaper.ps1
+      - path: ../lib/windows/scripts/set-wallpaper.ps1
     enable_disk_encryption: true
   software:
   settings:
