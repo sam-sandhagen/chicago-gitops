@@ -21,5 +21,6 @@
       - path: ../lib/windows/scripts/set-wallpaper.ps1
     enable_disk_encryption: true
   software:
-  secrets:
-    - secret: "$FLEET_WORKSTATIONS_ENROLL_SECRET"
+  settings:
+    secrets:
+      - secret: "$FLEET_WORKSTATIONS_ENROLL_SECRET"
