@@ -5,15 +5,15 @@
   controls:
     macos_settings:
       custom_settings:
-       - path: ../Users/ssandhagen/Documents/GitHub/chicago-gitops/lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
-         labels_include_all:
-           - "Department: Engineering"
-       - path: ../Users/ssandhagen/Documents/GitHub/chicago-gitops/lib/ios/configuration-profiles/passcode-settings.json
-         labels_exclude_any:
+        - path: ../Users/ssandhagen/Documents/GitHub/chicago-gitops/lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+          labels_include_all:
+            - "Department: Engineering"
+        - path: ../Users/ssandhagen/Documents/GitHub/chicago-gitops/lib/ios/configuration-profiles/passcode-settings.json
+          labels_exclude_any:
             - C-Suite
     macos_updates:
-     deadline: "2026-04-30"
-     minimum_version: "26.0"
+      deadline: "2026-04-30"
+      minimum_version: "26.0"
     ipados_updates:
       deadline: "2026-06-30"
       minimum_version: "26.2"
