@@ -1,9 +1,15 @@
-name: "💻 Workstations"
-policies:
-reports:
-agent_options:
-controls:
-software:
-settings:
+- name: "💻 Workstations"
+  policies:
+  reports:
+  agent_options:
+  controls:
+    macos_settings:
+      custom_settings:
+       - path: ../Users/ssandhagen/Documents/GitHub/chicago-gitops/lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+    macos_updates:
+     deadline: "2026-04-30"
+     minimum_version: "26.0"
+  software:
+  settings:
   secrets:
     - secret: "$FLEET_WORKSTATIONS_ENROLL_SECRET"
